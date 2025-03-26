@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <form method="post">
+            <h2>Student Resume</h2>
+            <label for>Enter Your First Name:</label>
+            <input type="text" name="Fname" placeholder="First Name"
+                pattern="^[a-zA-Z ]{3,20}$"><br><br>
+
+            <label for>Enter Your Last Name: </label>
+            <input type="text" name id placeholder="Last Name"
+                pattern="^[a-zA-Z ]{3,20}$"><br>
+            <br>
+            <label for="">Email:</label>
+            <input type="email" name="" id="" required><br><br>
+            <label for>Enter Branch</label>
+
+            <select name="Branch" id>
+                <option value>Select Branch</option>
+                <option value="cse">CSE</option>
+                <option value="E&TC">E&TC</option>
+                <option value="Mech">Mechanical</option>
+                <option value="Electrical">Electrical</option>
+            </select><br><br>
+
+            <label for="">Enter Collage Name: </label>
+            <input type="text" name="ClgName" id=""><br><br>
+
+            <label for="">DOB</label>
+            <input type="date" name="calender" id=""><br><br>
+            
+            <label for="">Enter Your Age</label>
+            <input type="text" name="age" id="" pattern="^[0-9]{1,10}$" ><br><br>
+
+            <label for="">Gender: </label>
+            <label for="">Male</label>
+            <input type="radio" name="Male" id="">
+            <label for="">Female</label>
+            <input type="radio" name="Female" id=""><br><br>
+
+            <label for="">Subject:</label><br>
+            <label for="">CDAC</label>
+            <input type="checkbox" name="CDAC" id="">
+            <label for="">DBDA</label>
+            <input type="checkbox" name="DBDA" id="">
+            <label for="">AI</label>
+            <input type="checkbox" name="AI" id=""><br><br>
+
+            <button type="submit" >Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </body>
+</html>
